@@ -1,5 +1,9 @@
 .choresText {
-   color: black;
+   color: limegreen;
+   font-family: "New Amsterdam", sans-serif;
+   font-size: 30px;
+   text-decoration: underline;
+   font-style: italic;
 }
 
 .choresHeading {
