@@ -1,13 +1,13 @@
-.choresText {
+.choresText{
    color: limegreen;
    font-family: "New Amsterdam", sans-serif;
-   font-size: 30px;
-   text-decoration: underline;
+   font-size: 1.3vw;
    font-style: italic;
-   text-align: right;
+   text-align: left;
 }
 
 .choresHeading {
-   color: black;
-   text-align: right;
+   color: rgb(127, 71, 71);
+   text-align: left;
+   font-size: 1.3vw;
 }

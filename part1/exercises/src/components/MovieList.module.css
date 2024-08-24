@@ -2,8 +2,11 @@
    color: hotpink;
    font-size: 1.3vw;
    text-align: left;
+   font-family: "New Amsterdam", sans-serif;
+
 }
 
 .movieHeading {
    text-align: left;
+   color:grey;
 }

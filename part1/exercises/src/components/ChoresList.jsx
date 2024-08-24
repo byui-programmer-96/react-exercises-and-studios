@@ -1,11 +1,20 @@
-export default function ChoresList () {
-   return <div>
-            <h1 className={classes.choresHeading}><u>Chores List:</u></h1>
-               <ol>
-                  <li className={classes.choresText}><i>Take out trash</i></li>
-                  <li className={classes.choresText}><i>Weed Garden</i></li>
-                  <li className={classes.choresText}><i>Wash Dishes</i></li>
-                  <li className={classes.choresText}><i>Wash Laundry</i></li>
-               </ol>
-   </div>;
+import React from 'react';
+import classes from './ChoresList.module.css';
+
+class ChoresList extends React.Component {
+   render() {
+      const chores = ['Empty dishwasher', 'Complete prep work', 'Buy groceries'];
+
+      return(
+         <div class="chores">
+            <h3 className = {classes.choresHeading}>Today's Chores</h3>
+            <ul>
+               <li className = {classes.choresText}>{chores[0]}</li>
+               <li className = {classes.choresText}>{chores[1]}</li>
+               <li className = {classes.choresText}>{chores[2]}</li>
+            </ul>
+         </div>);
+   }
 }
+
+export default ChoresList;
