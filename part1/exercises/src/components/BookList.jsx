@@ -6,7 +6,7 @@ export default function BookList() {
 
    return (
       <div>
-         <h3>{"New Book Realses"}</h3>
+         <h3>{"New Book Releases"}</h3>
          <img src={book1} alt="We Used to Live Here: A Novel by Marcus Kliewer" />
          <img src={book2} alt="Apprentice to the Villain by Hannah Nicole Maehrern" />
          <img src={book3} alt="Shadow of Doubt: A Thriller by Brad Thor" />

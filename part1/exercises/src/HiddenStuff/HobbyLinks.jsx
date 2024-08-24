@@ -9,12 +9,10 @@ class HobbyLinks extends React.Component {
     return (
     <div>
       <h2 className={classes.hobbylinks-heading}>"My Hobby Links"</h2>
-      <ol>
-      <li className={classes.hobbylinks-text}><a href = {hobbyLinks[0]}>Goodreads</a></li>
-      <li className={classes.hobbylinks-text}><a href = {hobbyLinks[1]}>Chess</a></li>
-      <li className={classes.hobbylinks-text}><a href = {hobbyLinks[2]}>Hiking on trails</a></li>
-      <li className={classes.hobbylinks-text}><a href = {hobbyLinks[3]}>Playing guitar</a></li>
-      </ol>
+      <a href = {hobbyLinks[0]}>Goodreads</a>
+      <a href = {hobbyLinks[1]}>Chess</a>
+      <a href = {hobbyLinks[2]}>Hiking on trails</a>
+      <a href = {hobbyLinks[3]}>Playing guitar</a>
     </div>
   );
 

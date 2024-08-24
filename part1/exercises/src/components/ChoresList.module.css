@@ -4,8 +4,10 @@
    font-size: 30px;
    text-decoration: underline;
    font-style: italic;
+   text-align: right;
 }
 
 .choresHeading {
    color: black;
+   text-align: right;
 }
